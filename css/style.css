@@ -1,0 +1,151 @@
+@import url("reset.css");
+
+body {
+    font-size: 14px;
+}
+
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#task1 {
+    font-family: Poppins, sans-serif;
+    color: #808080;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#task1 .container {
+    max-width: 678px;
+    margin: 0 auto;
+}
+
+#task1 .text {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#task1 .list {
+    margin-bottom: 20px;
+}
+
+#task1 .item {
+    line-height: 1.4;
+    padding-left: 28px;
+    background: url("../img/check.svg") 0 0 / 19.6px no-repeat;
+
+    /* в останньому li наявний ефект схлопування margin з батьківським ul, візуально все ок */
+    margin-bottom: 14px;
+}
+
+#task2,
+#task3 {
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    background-color: #302C42;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#task2 .container,
+#task3 .container {
+    max-width: 1302px;
+    margin: 0 auto;
+}
+
+#task2 .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url("../img/vector7.svg") 0 100px no-repeat, url("../img/vector8.svg") 0 375px no-repeat;
+}
+
+#task2 .img {
+    max-width: 524px;
+    border-radius: 240px 100px;
+    margin-right: 108px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+#task2 .text-content,
+#task3 .item,
+#task3 .text-content {
+    display: inline-block;
+}
+
+#task2 .text-content {
+    max-width: 630px;
+}
+
+#task2 .img,
+#task2 .text-content {
+    vertical-align: middle;
+}
+
+#task2 .title {
+    text-align: start;
+    font-size: 36px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+#task2 h1 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#task2 h2 {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 42px;
+}
+
+#task2 .text {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 28px;
+}
+
+#task2 .button {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #343045;
+    padding: 17px 40px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+#task3 .list {
+    padding: 25px 40px;
+    border-radius: 90px;
+    background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+}
+
+#task3 .item {
+    min-width: 370px;
+    min-height: 116px;
+    margin: 0 auto;
+    border-right: 2px solid rgba(192, 183, 232, 0.33);
+}
+
+#task3 .img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+#task3 .title {
+    text-align: start;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
