@@ -14,6 +14,21 @@ body {
     padding-right: 15px;
 }
 
+.task-list {
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #302C42;
+    text-align: center;
+    padding: 50px 0 50px;
+}
+
+.task-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
 #task1 {
     font-family: Poppins, sans-serif;
     color: #808080;
@@ -40,8 +55,6 @@ body {
     line-height: 1.4;
     padding-left: 28px;
     background: url("../img/check.svg") 0 0 / 19.6px no-repeat;
-
-    /* в останньому li наявний ефект схлопування margin з батьківським ul, візуально все ок */
     margin-bottom: 14px;
 }
 
@@ -109,7 +122,7 @@ body {
 
 #task2 .text {
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.5;
     margin-bottom: 28px;
 }
 
@@ -125,21 +138,44 @@ body {
 }
 
 #task3 .list {
-    padding: 25px 40px;
+    padding: 25px 20px;
+    background: radial-gradient(circle, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
     border-radius: 90px;
-    background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
 }
 
 #task3 .item {
-    min-width: 370px;
+    max-width: 400px;
+    width: 100%;
     min-height: 116px;
-    margin: 0 auto;
+    padding-left: 20px;
+
+}
+
+#task3 .contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+#task3 .location,
+#task3 .tel,
+#task3 .mail {
+    padding-left: 70px;
+}
+
+#task3 .location {
+    background: url("../img/location.svg") center left / 70px no-repeat;
     border-right: 2px solid rgba(192, 183, 232, 0.33);
 }
 
-#task3 .img {
-    width: 60px;
-    margin-right: 20px;
+#task3 .tel {
+    background: url("../img/phone.svg") center left / 59px no-repeat;
+    border-right: 2px solid rgba(192, 183, 232, 0.33);
+}
+
+#task3 .mail {
+    background: url("../img/mail.svg") center left / 65px no-repeat;
 }
 
 #task3 .title {
@@ -148,4 +184,17 @@ body {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 10px;
+}
+
+.footer {
+    padding: 50px 0 50px;
+    background-color: #302C42;
+    text-align: center;
+}
+
+.footer a {
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
 }
